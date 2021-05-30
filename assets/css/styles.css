@@ -119,7 +119,18 @@ img{
     z-index: var(--z-fixed);
     background-color: var(--first-color);
 }
-
+.download_cv
+{
+    background: rgb(45, 155, 2);
+    padding: 1rem;
+    border-radius: 0.4rem;
+    color: white;
+}
+.download_cv:hover
+{
+    background: rgb(31, 107, 1);
+    cursor: pointer;
+}
 /*===== NAV =====*/
 .nav{
     height: var(--header-height);
